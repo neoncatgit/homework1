@@ -39,8 +39,8 @@ class Hero(SuperHero):
     def fly_sky(self):
         print(f'fly in the {self.fly}_phrase')
 
-    # def crit(self):
-    #     return self.damage ** 2
+    def crit(self):
+        return self.damage ** 2
 
 
 class SecondHero(SuperHero):
